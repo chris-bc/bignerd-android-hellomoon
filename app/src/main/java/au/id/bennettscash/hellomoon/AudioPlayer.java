@@ -30,4 +30,13 @@ public class AudioPlayer {
 
         mPlayer.start();
     }
+
+    public void togglePause() {
+        if (mPlayer != null) {
+            if (mPlayer.isPlaying())
+                mPlayer.pause();
+            else
+                mPlayer.start();
+        }
+    }
 }
