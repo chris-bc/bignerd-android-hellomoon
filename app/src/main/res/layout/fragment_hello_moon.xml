@@ -7,7 +7,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerInside"
-        android:layout_weight="1"/>
+        android:layout_weight="1" />
+    <VideoView android:id="@+id/hellomoon_video"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+    />
     <TableRow android:gravity="center|bottom" android:layout_weight="0">
 
         <Button android:id="@+id/hellomoon_playButton"
